@@ -1,0 +1,19 @@
+// tasks.json
+{
+  "version": "2.0.0",
+  "tasks": [
+      {
+          "label": "Run",
+          "type": "shell",
+          "command": "clear && make clean && make build && make run"
+      }
+  ]
+}
+/*
+note: below shortcut was added to keybindings.json to call this task with a shortcut
+    {
+      "key": "[IntlBackslash]",
+      "command": "workbench.action.tasks.runTask",
+      "args": "Run"
+  },
+*/
